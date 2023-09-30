@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lr1;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
