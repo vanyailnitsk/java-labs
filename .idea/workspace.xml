@@ -20,6 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2VTG2sUimkJH5PLwQNzHz9OUqXs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,13 +61,26 @@
       <recent name="$PROJECT_DIR$/lr2/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.lr2.Main">
+  <component name="RunManager" selected="Application.org.example.jdbc_connect.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="labs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.jdbc_connect.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jdbc_connect.Main" />
+      <module name="lr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jdbc_connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.jdbc_connect.Main" />
         <item itemvalue="Application.org.example.lr2.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -96,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694852454674</updated>
-      <workItem from="1694852455900" duration="13572000" />
+      <workItem from="1694852455900" duration="15364000" />
     </task>
     <servers />
   </component>
