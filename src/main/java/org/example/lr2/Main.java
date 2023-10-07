@@ -6,12 +6,12 @@ import java.io.PrintWriter;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args)  {
         Map<String, Object> map = new HashMap<>();
         Random random = new Random();
-        int[] numsArray = new int[100];
+        int[] numsArray = new int[30];
         List<Integer> numsList = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 30; i++) {
             numsArray[i] = 1 + random.nextInt(100);
             numsList.add(1 + random.nextInt(100));
         }
