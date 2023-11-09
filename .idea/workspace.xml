@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b83726c4-de83-4291-b5d6-de03b715f864" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lr3/ConcurrentSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lr3/SearchThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lr2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lr2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lr3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lr3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
-    "last_opened_file_path": "/Users/admin/IdeaProjects/labs/lr2",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/admin/IdeaProjects/labs/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +55,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/lr3" />
       <recent name="$PROJECT_DIR$/lr2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -62,7 +66,7 @@
       <recent name="$PROJECT_DIR$/lr2/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.lr2.Main">
+  <component name="RunManager" selected="Application.org.example.lr3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="labs" />
@@ -115,8 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.lr3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lr3.Main" />
+      <module name="labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lr3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.lr3.Main" />
         <item itemvalue="Application.org.example.lr2.Main" />
         <item itemvalue="Application.org.example.lr1.Main" />
         <item itemvalue="Application.org.example.jdbc_connect.Main" />
@@ -136,7 +154,7 @@
       <workItem from="1696706619356" duration="3334000" />
       <workItem from="1697042245688" duration="173000" />
       <workItem from="1697882870813" duration="5715000" />
-      <workItem from="1699550985913" duration="428000" />
+      <workItem from="1699550985913" duration="6029000" />
     </task>
     <servers />
   </component>
