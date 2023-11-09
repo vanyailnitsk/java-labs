@@ -1,12 +1,10 @@
 package org.example.lr2;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         Map<String, Object> map = new HashMap<>();
         Random random = new Random();
         int[] numsArray = new int[100];
