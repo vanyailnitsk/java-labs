@@ -31,7 +31,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>org.example.lr1.Main</mainClass>
+                            <mainClass>org.example.lr2.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
