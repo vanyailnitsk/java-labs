@@ -1,29 +1,34 @@
 package org.example.lr3;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class SearchThread extends Thread {
-    private Scanner scanner;
+    private BufferedReader reader;
     private AtomicInteger count;
 
-    public SearchThread(Scanner scanner, AtomicInteger atomicInteger) {
-        this.scanner = scanner;
+    public SearchThread(String name, BufferedReader reader, AtomicInteger atomicInteger) {
+        super(name);
+        this.reader = reader;
         this.count = atomicInteger;
     }
 
     @Override
     public void run() {
-        synchronized (scanner) {
-            while (scanner.hasNext()) {
-                String line = scanner.nextLine();
+        String line;
+        try {
+            while ((line = reader.readLine()) != null) {
                 for (char ch : line.toCharArray()) {
                     if (ch == 'I' || ch == 'i') {
                         count.incrementAndGet();
                     }
                 }
             }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
     }
 }
